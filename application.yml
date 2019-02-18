@@ -12,3 +12,8 @@ spring:
   profiles: test #测试环境
   application:
     name: phoenix-config-test
+---
+spring:
+  profiles: pex #pex
+  application:
+    name: phoenix-config-pex
